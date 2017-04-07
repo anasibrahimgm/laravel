@@ -19,10 +19,20 @@ class PagesController extends Controller
 		*/
 		/////////////////
 
+		////////////////
+		/*
 		$data = [];
 		$data['email'] = 'anasibrahimgm@mail';
 		$data['name']= 'Anas';
 		return view('pages.about')->withData($data);
+		*/
+		////////////
+
+		///////////////
+		$name= 'Anas';
+		return view('pages.about')->withName($name)->withEmail('anasibrahimgm@gmail');
+		////////////
+
 
 	}
 
