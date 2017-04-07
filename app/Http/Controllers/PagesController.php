@@ -29,9 +29,12 @@ class PagesController extends Controller
 		////////////
 
 		///////////////
+		/*
 		$name= 'Anas';
 		return view('pages.about')->withName($name)->withEmail('anasibrahimgm@gmail');
+		*/
 		////////////
+		return view('pages.about');
 
 
 	}
